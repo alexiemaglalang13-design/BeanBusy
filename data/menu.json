@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Busy Bee Latte",
+    "category": "Coffee",
+    "tag": "HOUSE FAVORITE",
+    "price": 145,
+    "description": "Espresso and smooth milk, made for your everyday rush.",
+    "image": "images/coffee-latte.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Deadline Cappuccino",
+    "category": "Coffee",
+    "tag": "CLASSIC",
+    "price": 130,
+    "description": "Rich espresso with silky foam and a cocoa finish.",
+    "image": "images/cappuccino.jpg"
+  },
+  {
+    "id": 3,
+    "name": "One More Shot",
+    "category": "Coffee",
+    "tag": "BOLD",
+    "price": 155,
+    "description": "A double espresso for the days that need extra focus.",
+    "image": "images/espresso.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Matcha Made in Heaven",
+    "category": "Matcha",
+    "tag": "SMOOTH",
+    "price": 155,
+    "description": "Earthy Japanese-style matcha with creamy milk.",
+    "image": "images/matcha.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Berry Busy Matcha",
+    "category": "Matcha",
+    "tag": "FRUITY",
+    "price": 175,
+    "description": "Iced matcha layered with a bright berry finish.",
+    "image": "images/berry-matcha.jpg"
+  },
+  {
+    "id": 6,
+    "name": "The Overachiever",
+    "category": "Signature",
+    "tag": "SIGNATURE",
+    "price": 175,
+    "description": "A layered espresso drink with a smooth, sweet finish.",
+    "image": "images/signature-coffee.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Plot Twist Mocha",
+    "category": "Signature",
+    "tag": "CHOCOLATE",
+    "price": 165,
+    "description": "Espresso meets chocolate for a little plot twist.",
+    "image": "images/mocha.jpg"
+  },
+  {
+    "id": 8,
+    "name": "The Break Cake",
+    "category": "Desserts",
+    "tag": "SWEET BREAK",
+    "price": 145,
+    "description": "A soft slice of cake for a well-earned pause.",
+    "image": "images/cake.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Croissant the Line",
+    "category": "Desserts",
+    "tag": "BAKED DAILY",
+    "price": 95,
+    "description": "Flaky, buttery layers with a golden finish.",
+    "image": "images/croissant.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Square One Brownie",
+    "category": "Desserts",
+    "tag": "CHOCOLATE",
+    "price": 85,
+    "description": "A rich chocolate brownie, simple and satisfying.",
+    "image": "images/brownie.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Citrus Reset",
+    "category": "Refreshers",
+    "tag": "REFRESHER",
+    "price": 120,
+    "description": "A crisp citrus cooler for a fresh start.",
+    "image": "images/citrus-refresher.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Peach Off-Duty",
+    "category": "Refreshers",
+    "tag": "REFRESHER",
+    "price": 130,
+    "description": "A mellow peach refresher for your slower moments.",
+    "image": "images/peach-refresher.jpg"
+  }
+]

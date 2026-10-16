@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Bean Busy Coffee or plan a visit to our cafe.">
+  <title>Visit Us | Bean Busy</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="/" aria-label="Bean Busy home">bean busy<span>.</span></a>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/menu">Menu</a>
+      <a href="/about">About</a>
+      <a href="/contact" class="active">Contact</a>
+    </nav>
+    <a class="header-cta" href="/menu">Find your favorite <span>↗</span></a>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-main">
+      <div class="contact-layout">
+        <div class="contact-photo">
+          <img src="/images/coffee-hands.jpg" alt="A person enjoying a warm cup of coffee">
+          <div class="contact-photo-caption">
+            <span>YOUR NEXT LITTLE BREAK</span>
+            <span>BEAN BUSY · ANGELES CITY</span>
+          </div>
+        </div>
+
+        <div class="contact-form-panel">
+          <p class="eyebrow">Let's keep in touch</p>
+          <h1>Contact <em>Us</em></h1>
+          <p class="contact-intro">Have a question, a suggestion, or just want to say hello? Send us a message.</p>
+
+          <form id="contact-form">
+            <div class="form-field">
+              <label for="contact-name">Name:</label>
+              <input id="contact-name" name="name" type="text" placeholder="Your name" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-email">Email:</label>
+              <input id="contact-email" name="email" type="email" placeholder="name@gmail.com" required>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-message">Message:</label>
+              <textarea id="contact-message" name="message" placeholder="What would you like to tell us?"
+                required></textarea>
+            </div>
+
+            <button class="contact-submit" type="submit">Send Message <span>→</span></button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <p class="contact-note"><span>✳</span> We'd love to hear from you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visit-details">
+      <div class="visit-card">
+        <p class="eyebrow">Drop by sometime</p>
+        <h2>Come take<br><em>a little break.</em></h2>
+
+        <div class="detail-line">
+          <span class="detail-icon">⌖</span>
+          <div>
+            <strong>Location</strong><br>
+            #1 Holy Angel Avenue,<br>
+            Sto. Rosario Street,<br>
+            Angeles City, 2009 Pampanga
+          </div>
+        </div>
+
+        <div class="detail-line">
+          <span class="detail-icon">◷</span>
+          <div>
+            <strong>Opening hours</strong><br>
+            Monday–Saturday: 8:00 AM–11:00 PM<br>
+            <small>Sunday: Closed</small>
+          </div>
+        </div>
+
+        <div class="detail-line">
+          <span class="detail-icon">✉</span>
+          <div>
+            <strong>Contact</strong><br>
+            <a href="mailto:hello@beanbusy.example">beanbusy@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="visit-art">
+        <img src="/images/cafe-interior.jpg" alt="Bean Busy cafe illustration">
+        <div class="visit-sticker">GOOD COFFEE<br><strong>Good company.</strong></div>
+      </div>
+    </section>
+
+    <section class="visit-bottom">
+      <p class="eyebrow">No rush, no pressure</p>
+      <h2>We'll save you a <em>little pause.</em></h2>
+      <a class="button button-dark" href="/menu">See what's brewing <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div>
+        <a class="logo logo-light" href="/">bean busy<span>.</span></a>
+        <p>Good coffee for full calendars and little pauses.</p>
+      </div>
+      <div>
+        <p class="footer-label">EXPLORE</p>
+        <a href="/">Home</a>
+        <a href="/menu">Menu</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <div>
+        <p class="footer-label">COME BY</p>
+        <p>#1 Holy Angel Avenue,<br>Sto. Rosario Street,<br>Angeles City, 2009 Pampanga</p>
+        <p>Mon–Sat · 8:00 AM–11:00 PM</p>
+      </div>
+      <div class="footer-note">Stay busy.<br><em>Sip easy.</em> <span>✳</span></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BEAN BUSY</span>
+      <span>GOOD COFFEE FOR YOUR EVERYDAY MOMENTS</span>
+    </div>
+  </footer>
+</body>
+</html>

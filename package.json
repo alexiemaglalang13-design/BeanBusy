@@ -1,0 +1,16 @@
+{
+  "name": "bean-busy-coffee-shop",
+  "version": "1.0.0",
+  "description": "Bean Busy coffee shop website for the Basic Express Routing Using GET activity",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
